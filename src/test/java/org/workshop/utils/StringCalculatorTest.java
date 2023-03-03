@@ -111,7 +111,8 @@ class StringCalculatorTest {
         Arguments.of("//#1,1#2",4),
         Arguments.of("//;1;1;\n\n100",102),
         Arguments.of("//p1,1,1",3),
-        Arguments.of("//m1,1m3",5)
+        Arguments.of("//m1,1m3",5),
+        Arguments.of("//m1m1",3)
     );
   }
 }
